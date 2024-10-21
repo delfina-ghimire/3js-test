@@ -1,12 +1,12 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.2.57",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
-			"name":"MAIN",
+			"name":"Scene",
 			"nodes":[
 				0
 			]
@@ -15,23 +15,23 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"2T",
+			"name":"R",
 			"rotation":[
-				0.5,
-				0.5,
-				-0.5,
-				0.5
+				0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
 			],
 			"translation":[
-				0.06614619493484497,
-				0.7763592004776001,
-				0.4936908781528473
+				0.48958778381347656,
+				-0.057021357119083405,
+				-0.008209407329559326
 			]
 		}
 	],
 	"meshes":[
 		{
-			"name":"Text.003",
+			"name":"Text.002",
 			"primitives":[
 				{
 					"attributes":{
@@ -48,68 +48,68 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":52,
+			"count":714,
 			"max":[
-				0.2850000262260437,
+				0.15496480464935303,
 				0,
-				0.4675000309944153
+				0.34777703881263733
 			],
 			"min":[
-				-0.2850000262260437,
-				-0.12226413935422897,
-				-0.21450001001358032
+				-0.3312563896179199,
+				-0.11357762664556503,
+				-0.3188772201538086
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":52,
+			"count":714,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":52,
+			"count":714,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":84,
+			"count":1416,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":624,
+			"byteLength":8568,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":624,
-			"byteOffset":624,
+			"byteLength":8568,
+			"byteOffset":8568,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":416,
-			"byteOffset":1248,
+			"byteLength":5712,
+			"byteOffset":17136,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":168,
-			"byteOffset":1664,
+			"byteLength":2832,
+			"byteOffset":22848,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":1832,
-			"uri":"T.bin"
+			"byteLength":25680,
+			"uri":"R_Logo.bin"
 		}
 	]
 }

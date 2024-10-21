@@ -1,12 +1,12 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.2.57",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
-			"name":"MAIN",
+			"name":"Scene",
 			"nodes":[
 				0
 			]
@@ -15,23 +15,23 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"5Y",
+			"name":"o",
 			"rotation":[
-				0.5,
-				0.5,
-				-0.5,
-				0.5
+				0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
 			],
 			"translation":[
-				0.06614607572555542,
-				0.7417480945587158,
-				-0.9864819049835205
+				0.005807280540466309,
+				-0.01581176370382309,
+				-0.0034891366958618164
 			]
 		}
 	],
 	"meshes":[
 		{
-			"name":"Text",
+			"name":"Text.006",
 			"primitives":[
 				{
 					"attributes":{
@@ -48,68 +48,68 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":54,
+			"count":1080,
 			"max":[
-				0.3021111488342285,
-				0,
-				0.432888925075531
+				0.3336998224258423,
+				0.011591121554374695,
+				0.33436843752861023
 			],
 			"min":[
-				-0.30188894271850586,
-				-0.12226413935422897,
-				-0.2491111308336258
+				-0.33427274227142334,
+				-0.12516875565052032,
+				-0.33436867594718933
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":54,
+			"count":1080,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":54,
+			"count":1080,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":96,
+			"count":2160,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":648,
+			"byteLength":12960,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":648,
-			"byteOffset":648,
+			"byteLength":12960,
+			"byteOffset":12960,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":432,
-			"byteOffset":1296,
+			"byteLength":8640,
+			"byteOffset":25920,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":1728,
+			"byteLength":4320,
+			"byteOffset":34560,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":1920,
-			"uri":"Y.bin"
+			"byteLength":38880,
+			"uri":"O_Logo.bin"
 		}
 	]
 }

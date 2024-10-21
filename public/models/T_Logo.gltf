@@ -1,12 +1,12 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.2.57",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
-			"name":"MAIN",
+			"name":"Scene",
 			"nodes":[
 				0
 			]
@@ -15,17 +15,17 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"1S",
+			"name":"T",
 			"rotation":[
-				0.5,
-				0.5,
-				-0.5,
-				0.5
+				0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
 			],
 			"translation":[
-				0.06614619493484497,
-				0.6537672877311707,
-				0.8641633987426758
+				-0.38270652294158936,
+				0.11561761051416397,
+				-0.008209407329559326
 			]
 		}
 	],
@@ -48,68 +48,68 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":550,
+			"count":48,
 			"max":[
-				0.1952465921640396,
+				0.22134071588516235,
 				0,
-				0.35390812158584595
+				0.40909692645072937
 			],
 			"min":[
-				-0.19075343012809753,
-				-0.12226413935422897,
-				-0.3460919260978699
+				-0.22134077548980713,
+				-0.11357762664556503,
+				-0.14623823761940002
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":550,
+			"count":48,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":550,
+			"count":48,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":1080,
+			"count":84,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":6600,
+			"byteLength":576,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":6600,
-			"byteOffset":6600,
+			"byteLength":576,
+			"byteOffset":576,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":4400,
-			"byteOffset":13200,
+			"byteLength":384,
+			"byteOffset":1152,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2160,
-			"byteOffset":17600,
+			"byteLength":168,
+			"byteOffset":1536,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":19760,
-			"uri":"S.bin"
+			"byteLength":1704,
+			"uri":"T_Logo.bin"
 		}
 	]
 }

@@ -70,12 +70,12 @@ const App = () => {
       <ambientLight intensity={0.5}/>
    
        <OrbitControls /> 
-       <group position={[0,-0.5,0]}>
-       <Model url="/models/S.gltf" color="#fff" />
-      <Model url="/models/T.gltf" color="#fff" />
-      <Model url="/models/O.gltf" color="#fff"/>
-      <Model url="/models/R.gltf" color="#fff"/>
-      <Model url="/models/Y.gltf" color="#fff" />    
+       <group position={[0,0,0]}>
+       <Model url="/models/S_Logo.gltf" color="#fff" />
+      <Model url="/models/T_Logo.gltf" color="#fff" />
+      <Model url="/models/O_Logo.gltf" color="#fff"/>
+      <Model url="/models/R_Logo.gltf" color="#fff"/>
+      <Model url="/models/Y_Logo.gltf" color="#fff" />    
        </group>
 
        {/* <Cube color={"yellow"}/> */}

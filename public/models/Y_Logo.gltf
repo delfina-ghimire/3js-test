@@ -1,12 +1,12 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.2.57",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
-			"name":"MAIN",
+			"name":"Scene",
 			"nodes":[
 				0
 			]
@@ -15,17 +15,17 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"4R",
+			"name":"y",
 			"rotation":[
-				0.5,
-				0.5,
-				-0.5,
-				0.5
+				0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
 			],
 			"translation":[
-				0.06614607572555542,
-				0.668170154094696,
-				-0.6176555752754211
+				0.6828136444091797,
+				0.022532857954502106,
+				-0.002881496213376522
 			]
 		}
 	],
@@ -48,68 +48,68 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":444,
+			"count":54,
 			"max":[
-				0.2250061184167862,
+				0.2526775598526001,
 				0,
-				0.35931095480918884
+				0.3160121738910675
 			],
 			"min":[
-				-0.3019939363002777,
-				-0.12226413935422897,
-				-0.32268908619880676
+				-0.2526775598526001,
+				-0.11357762664556503,
+				-0.2393229901790619
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":444,
+			"count":54,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":444,
+			"count":54,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":882,
+			"count":96,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":5328,
+			"byteLength":648,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":5328,
-			"byteOffset":5328,
+			"byteLength":648,
+			"byteOffset":648,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3552,
-			"byteOffset":10656,
+			"byteLength":432,
+			"byteOffset":1296,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1764,
-			"byteOffset":14208,
+			"byteLength":192,
+			"byteOffset":1728,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":15972,
-			"uri":"R.bin"
+			"byteLength":1920,
+			"uri":"Y_Logo.bin"
 		}
 	]
 }
